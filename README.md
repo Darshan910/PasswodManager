@@ -9,7 +9,12 @@ Welcome to MERN Password Manager, a secure and convenient way to manage your pas
    git clone https://github.com/Darshan910/passwodManager
    ```
 
-2. Install dependencies for both the frontend and backend:
+2. Navigate to the project directory:
+   ```sh
+   cd PasswodManager
+   ```
+
+3. Install dependencies for both the frontend and backend:
    ```sh
    # Install frontend dependencies (in the root directory)
    npm install
@@ -21,7 +26,7 @@ Welcome to MERN Password Manager, a secure and convenient way to manage your pas
    npm install
    ```
 
-3. Set up environment variables:
+4. Set up environment variables:
    - change a `.env` file in the `backend` directory.
    - Define the following environment variables in the `.env` file according to your requirement:
      ```
@@ -30,7 +35,7 @@ Welcome to MERN Password Manager, a secure and convenient way to manage your pas
      JWT_SECRET=your_jwt_secret
      ```
 
-4. Run the development servers:
+5. Run the development servers:
    ```sh
    # Start the backend server (in the backend directory)
    npm start
@@ -39,7 +44,7 @@ Welcome to MERN Password Manager, a secure and convenient way to manage your pas
    npm run dev
    ```
 
-5. Access the application in your web browser:
+6. Access the application in your web browser:
    Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
 ## Usage
