@@ -1,20 +1,66 @@
-# Getting Started with Create React App
+# MERN Password Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to MERN Password Manager, a secure and convenient way to manage your passwords for various online accounts.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Darshan910/passwodManager
+   ```
 
-### npm start
+2. Install dependencies for both the frontend and backend:
+   ```sh
+   # Install frontend dependencies (in the root directory)
+   npm install
+   
+   # Navigate to the backend directory
+   cd backend
+   
+   # Install backend dependencies
+   npm install
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Set up environment variables:
+   - change a `.env` file in the `backend` directory.
+   - Define the following environment variables in the `.env` file according to your requirement:
+     ```
+     PORT=3000
+     MONGO_URI=your_mongodb_connection_string
+     JWT_SECRET=your_jwt_secret
+     ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Run the development servers:
+   ```sh
+   # Start the backend server (in the backend directory)
+   npm start
+   
+   # Start the frontend development server (in the root directory)
+   npm run dev
+   ```
 
-### npm run build
+5. Access the application in your web browser:
+   Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
-Builds the app for production to the build folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+
+- Sign up for a new account or log in with an existing one.
+- Add, edit, and delete site entries in your password manager.
+- You can add as many as site details you want.
+
+## Technologies Used
+
+- Frontend: React, Vite, React Router, Axios
+- Backend: Node.js, Express.js, MongoDB, Mongoose
+- Authentication: JSON Web Tokens (JWT)
+
+
+## Contributor
+
+This project has been developed by:
+- Darshan Ajani (UI21EC07)
+
+## Contributing
+
+Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
+
