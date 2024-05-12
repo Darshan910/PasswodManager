@@ -1,6 +1,6 @@
 # MERN Password Manager
 
-Welcome to MERN Password Manager, a secure and convenient way to manage your passwords for various online accounts.
+Welcome to MERN Password Manager, a secure and convenient way to manage your passwords for various online accounts or Web-Apps.
 
 ## Installation
 
