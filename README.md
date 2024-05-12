@@ -27,15 +27,15 @@ Welcome to MERN Password Manager, a secure and convenient way to manage your pas
    ```
 
 4. Set up environment variables:
-   - change a `.env` file in the `backend` directory.
-   - Define the following environment variables in the `.env` file according to your requirement:
+   - Create a `.env` file in the `backend` directory.
+   - Define the following environment variables in the `.env` file:
      ```
      PORT=3000
      MONGO_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
      ```
 
-5. Run the development servers:
+6. Run the development servers:
    ```sh
    # Start the backend server (in the backend directory)
    npm start
@@ -44,7 +44,7 @@ Welcome to MERN Password Manager, a secure and convenient way to manage your pas
    npm run dev
    ```
 
-6. Access the application in your web browser:
+7. Access the application in your web browser:
    Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
 ## Usage
